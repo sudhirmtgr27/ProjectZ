@@ -1,0 +1,14 @@
+This is a sample project for Automation work in Testing Purpose.
+It is a sample e-comerse website where we have to test using selenium webdriver tool with help of java language.
+In this project we create a maven project which has some other feature and other framework like Data drivern and Page object Model.
+we create testNg report for report purpose.
+
+so keep it this project for only Practice purpose.
+
+
+
+
+
+Thank you 
+From
+ProjectZ
