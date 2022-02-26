@@ -15,7 +15,8 @@ public class ZprojectMasteringJavaScript
 	@FindBy(xpath="//a[@class='wpmenucart-contents' and @title='View your shopping cart']")
 	private WebElement viewKartLink;
 	
-	
+	@FindBy(xpath="//div[@id='comments']//h2[@class='woocommerce-Reviews-title']")
+	private WebElement Reviewtitle;
 	
 	public ZprojectMasteringJavaScript(WebDriver driver)
 	{
@@ -57,5 +58,11 @@ public class ZprojectMasteringJavaScript
 		return values;
 	}
 	
+	public String ReviewStatus()
+	{
+		String reviewStatus=Reviewtitle.getText();
+		return reviewStatus;
+		
+	}
 	
 }
